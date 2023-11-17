@@ -1,0 +1,23 @@
+{
+	"name": "tstl-nullify-function",
+	"version": "1.0.0",
+	"description": "TypeScriptToLua plugin that sets annotated local functions to nil",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thinknathan/tstl-nullify-function.git"
+	},
+	"author": "Nathan Bolton (https://thinknathan.ca/)",
+	"license": "CC0-1.0",
+	"main": "dist/tstl-nullify-function.cjs",
+	"type": "commonjs",
+	"scripts": {
+		"build": "tsc",
+		"prettier": "prettier --write ./"
+	},
+	"devDependencies": {
+		"prettier": "^3.1.0",
+		"tsc": "^2.0.4",
+		"typescript": "~5.2.2",
+		"typescript-to-lua": "~1.21.0"
+	}
+}
